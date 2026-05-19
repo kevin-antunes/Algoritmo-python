@@ -18,7 +18,7 @@ while matricula != 9999 :
         print("Reprovado com média :", media_final)
         reprovado = reprovado+1#Reprovado +=1
     matricula = int(input("Informe sua matricula :"))
-total_alunos = aprovado=reprovado
+total_alunos = aprovado+reprovado
 print("Total de Aprovados",aprovado)
 print("Total de Reprovados",reprovado)  
 print("Total de alunos", total_alunos)
